@@ -15,11 +15,16 @@ public class UIPrompt {
      */
     public static void printHello(){
         String output = 
-            "                                |v2.0|  \n" +    
-            "+-------------------------------------+ \n" +
-            "+--- Welcome to the TicTacToe game! --+ \n" +
-            "+-------------------------------------+ \n " +
-            "   Type 'help' to start and enjoy!   "
+  
+            "+-----------------------------------------------------+ \n"  +
+            "+          Welcome to the TicTacToe game!  (v2.0)     + \n"  +
+            "+-----------------------------------------------------+ \n"  +
+            "+-----------------------------------------------------+ \n"  +
+			"+          Author: Yaroslav Shestakov                 + \n"  +
+			"+ https://github.com/YaroslavShestakov/java-tictactoe + \n"  +
+			"+-----------------------------------------------------+ \n"  +
+			"														 \n"  +
+            "           Type 'help' to start and enjoy!   "
                     
         ;
         System.out.println(output) ;

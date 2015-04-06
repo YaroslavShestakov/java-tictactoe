@@ -6,7 +6,7 @@ import java.io.Serializable;
  * Tiles then should be stored and accessed 
  * through an array.
  * 
- * @author Ярослав
+ * @author Yaroslav Shestakov
  */
 public class Tile implements Serializable {
     public static String FREE = " " ;
