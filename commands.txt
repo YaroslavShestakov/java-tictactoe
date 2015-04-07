@@ -1,0 +1,11 @@
+Compile classes:
+$ javac -d build/classes -cp "src" src/init/Main.java
+
+Run after compilation:
+$ java -cp build/classes init.Main
+
+Create JAR:
+$ jar -cfm TicTacToe.jar build/manifest.txt -C build/classes .
+
+Run JAR:
+$ java -jar TicTacToe.jar
