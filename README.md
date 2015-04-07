@@ -1,16 +1,19 @@
 # java-tictactoe
 TicTacToe game written in Java, can be run with CLI.
 
-Installation:
+How to use from project folder:
 
-Using source code:
+To compile source files:
+`$ javac -d compiled -cp "src" src/init/Main.java`
 
-1. Download the repository into a directory.
-2. Compile code using: `javac src/init/Main.java`
-3. Run                 `java  src/init/Main`
+To create jar:
+$ jar -cfm TicTacToe.jar manifest.txt -C compiled .
 
-Using .jar package:
+To run:
+`$ java -cp compiled init.Main`
 
-1. Download package TicTacToe.jar [from here](https://www.dropbox.com/s/mvjxy4s4p2s35c9/TicTacToe.jar?dl=0).
-2. (Optional, required for saving) Create directory named `input-files` with `save.txt` inside.
-3. Run `java -jar TicTacToe.jar`
+To run .jar package (*):
+`$ java -jar TicTacToe.jar`
+
+* If you wish to use save/load functionality, there must be in the same directory with `.jar` file:
+Folder `input-files` with `save.txt` inside. File can be empty.
