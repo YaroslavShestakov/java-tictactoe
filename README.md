@@ -1,5 +1,5 @@
-# java-tictactoe
-TicTacToe game written in Java, can be run with CLI.
+# TicTacToe game
+A CLI version of simple TicTacToe game.
 
 How to use from project folder:
 
