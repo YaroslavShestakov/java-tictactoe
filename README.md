@@ -10,7 +10,8 @@ $ javac -d compiled -cp "src" src/init/Main.java
 
 To create jar:
 ```bash
-$ jar -cfm TicTacToe.jar manifest.txt -C compiled .```
+$ jar -cfm TicTacToe.jar manifest.txt -C compiled .
+```
 
 To run:
 ```bash
